@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RPSLS
 {
-    class PlayerModel
+    abstract class PlayerModel
     {
         public string playerName;
         public int playerPoints;
